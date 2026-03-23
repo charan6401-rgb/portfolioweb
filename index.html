@@ -211,8 +211,9 @@
 
     /* ─── HERO ─── */
     #hero {
-      min-height: 100svh; display: flex;
-      align-items: flex-start; padding-top: 110px; padding-bottom: 60px;
+      display: block;
+      padding-top: 110px;
+      padding-bottom: 70px;
     }
     .hero-inner { max-width: 700px; }
 
@@ -431,7 +432,7 @@
       .footer-inner { flex-direction: column; text-align: center; }
       section { padding: 60px 0; }
       .hero-name { font-size: clamp(2.4rem, 11vw, 3.8rem); }
-      #hero { padding-top: 100px; padding-bottom: 50px; min-height: unset; }
+      #hero { padding-top: 90px; padding-bottom: 50px; }
     }
     @media (max-width: 480px) {
       .contact-links { flex-direction: column; align-items: stretch; }
@@ -498,4 +499,6 @@
             <a href="#projects" class="btn btn-primary">See My Work</a>
             <a href="#contact" class="btn btn-ghost">Say Hello</a>
           </div>
-          <div class="
+          <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            
